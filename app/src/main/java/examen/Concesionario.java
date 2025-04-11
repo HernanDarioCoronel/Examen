@@ -1,5 +1,10 @@
 package examen;
 
+/**
+ * clase concecionario para autos y motos
+ * @author Hernan
+ * @version 1.0
+ */
 public class Concesionario {
     private String nombre;
     private String direccion;
@@ -35,6 +40,9 @@ public class Concesionario {
         this.gerente = gerente;
     }
 
+    /**
+     * muestra los datos de la concecionaria
+     */
     public void mostrarInformacion() {
         System.out.println("Concesionario: ");
         System.out.println("\tNombre: " + this.nombre);

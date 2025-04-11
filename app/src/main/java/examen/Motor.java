@@ -1,5 +1,10 @@
 package examen;
 
+/**
+ * clase motor
+ * @author Hernan
+ * @version 1.0
+ */
 public class Motor {
     private int potencia;
     private String tipoCombustible;
@@ -25,6 +30,9 @@ public class Motor {
         this.tipoCombustible = tipoCombustible;
     }
 
+    /**
+     * Muestra los datos del motor
+     */
     public void mostrarInformacion() {
         System.out.println("Motor: ");
         System.out.println("\tPotencia: " + this.potencia);

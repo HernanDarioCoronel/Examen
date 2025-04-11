@@ -1,5 +1,11 @@
 package examen;
 
+/**
+ * Clase coche
+ * @author Hernan
+ * @version 1.0
+ * @see examen.Vehiculo
+ */
 public class Coche extends Vehiculo {
 
     private int numeroPuertas;
@@ -17,6 +23,9 @@ public class Coche extends Vehiculo {
         this.numeroPuertas = numeroPuertas;
     }
 
+    /**
+     * Muestra los datos del coche
+     */
     @Override
     public void mostrarInformacion() {
         System.out.println("Coche: ");

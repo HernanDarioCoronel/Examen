@@ -1,5 +1,10 @@
 package examen;
 
+/**
+ * clase abstracta vehiculo
+ * @author Hernan
+ * @version 1.0
+ */
 public abstract class Vehiculo {
     private String marca;
     private String modelo;
@@ -65,6 +70,9 @@ public abstract class Vehiculo {
         this.propietario = propietario;
     }
 
+    /**
+     * muestra los datos del vehiculo
+     */
     public void mostrarInformacion() {
         System.out.println("\tMarca: " + this.marca);
         System.out.println("\tMatrícula: " + this.matricula);

@@ -1,5 +1,11 @@
 package examen;
 
+/**
+ * Clase empleado
+ * @author Hernan
+ * @version 1.0
+ * @see examen.Persona
+ */
 public class Empleado extends Persona {
     private String puesto;
 
@@ -16,6 +22,9 @@ public class Empleado extends Persona {
         this.puesto = puesto;
     }
 
+    /**
+     * muestra los datos del empleado
+     */
     @Override
     public void mostrarInformacion() {
         System.out.println("Empleado:");

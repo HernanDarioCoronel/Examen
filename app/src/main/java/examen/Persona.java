@@ -1,5 +1,10 @@
 package examen;
 
+/**
+ * Clase persona *
+ * @author Hernan
+ * @version 1.0
+ */
 public abstract class Persona {
     private String nombre;
     private String dni;
@@ -35,6 +40,9 @@ public abstract class Persona {
         this.telefono = telefono;
     }
 
+    /**
+     * Muesta los datos de la persona
+     */
     public void mostrarInformacion(){
         System.out.println("Datos de la persona");
         System.out.println("\tNombre: "+this.nombre);

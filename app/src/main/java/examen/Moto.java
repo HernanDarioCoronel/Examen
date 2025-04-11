@@ -1,5 +1,11 @@
 package examen;
 
+/**
+ * Clase Moto
+ * @author Hernan
+ * @version 1.0
+ * @see examen.Vehiculo
+ */
 public class Moto extends Vehiculo {
     private int cilindrada;
 
@@ -16,6 +22,9 @@ public class Moto extends Vehiculo {
         this.cilindrada = cilindrada;
     }
 
+    /**
+     * Muestra los datos de la moto
+     */
     @Override
     public void mostrarInformacion() {
         System.out.println("Moto:");
