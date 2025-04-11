@@ -1,4 +1,4 @@
-package persona;
+package examen;
 
 public class Propietario extends Persona{
     public Propietario(String nombre, String dni, String telefono) {

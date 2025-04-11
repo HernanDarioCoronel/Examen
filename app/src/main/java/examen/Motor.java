@@ -1,4 +1,4 @@
-package vehiculo;
+package examen;
 
 public class Motor {
     private int potencia;

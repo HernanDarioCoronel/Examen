@@ -1,6 +1,4 @@
-package concesionario;
-
-import Persona.Empleado;
+package examen;
 
 public class Concesionario {
     private String nombre;

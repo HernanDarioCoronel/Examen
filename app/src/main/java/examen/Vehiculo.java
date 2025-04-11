@@ -1,6 +1,4 @@
-package vehiculo;
-
-import Persona.Propietario;
+package examen;
 
 public abstract class Vehiculo {
     private String marca;

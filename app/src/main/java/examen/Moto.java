@@ -1,6 +1,4 @@
-package vehiculo;
-
-import Persona.Propietario;
+package examen;
 
 public class Moto extends Vehiculo {
     private int cilindrada;

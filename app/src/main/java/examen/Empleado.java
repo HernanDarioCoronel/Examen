@@ -1,4 +1,4 @@
-package persona;
+package examen;
 
 public class Empleado extends Persona {
     private String puesto;
